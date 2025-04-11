@@ -129,9 +129,9 @@ mod tests {
 
     #[tokio::test]
     async fn test_proxmox_server_command_exec() {
-        let user = "root";
-        let host = "10.60.25.197";
-        let password = Some("Arcserve@123".to_string());
+        let user = "<USER>";
+        let host = "<HOST";
+        let password = Some("<PASSWORD>".to_string());
         let command = "uname -a";
         let ssh_exe = Some("C:\\Windows\\System32\\OpenSSH\\ssh.exe");
 
